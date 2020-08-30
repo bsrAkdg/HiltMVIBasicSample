@@ -4,3 +4,7 @@ level.
 
         (API Level)                    (Project level)
         BlogNetworkEntity -> Mapper -> Blog
+
+** It is good practice for separating persistence models and network models. Because they are not always the same. User mapper or converting
+them each other.
+
