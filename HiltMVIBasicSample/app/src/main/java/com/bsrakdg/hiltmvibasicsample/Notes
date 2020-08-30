@@ -1,0 +1,6 @@
+
+** Blog and BlogNetworkEntity should not be the same each other every time. We have to use a mapper for mapping the API level to project
+level.
+
+        (API Level)                    (Project level)
+        BlogNetworkEntity -> Mapper -> Blog
