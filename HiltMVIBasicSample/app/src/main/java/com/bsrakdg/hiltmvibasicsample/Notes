@@ -8,3 +8,9 @@ level.
 ** It is good practice for separating persistence models and network models. Because they are not always the same. User mapper or converting
 them each other.
 
+** To use Hilt in a test:
+    - Annotate the test with @HiltAndroidTest
+    - Add the HiltAndroidRule test rule
+    - Use HiltTestApplication for your Android Application class
+
+

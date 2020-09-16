@@ -2,8 +2,10 @@ package com.bsrakdg.hiltmvibasicsample.ui
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
 
+@ExperimentalCoroutinesApi
 class MainFragmentFactory
 @Inject
 constructor(
